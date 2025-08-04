@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -18,4 +18,39 @@
 
     <script src="script.js"></script>
   </body>
+</html>
+
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>Online Quiz Maker</title>
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Online Quiz Maker</h1>
+
+    <div class="quiz">
+      <h2 id="question">Question text</h2>
+
+      <!-- Answer buttons will be injected here by script.js -->
+      <div id="answer-btn" class="btn-grid"></div>
+
+      <!-- Next / Play-again button -->
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+
+  <!-- Quiz logic -->
+  <script src="script.js" defer></script>
+</body>
 </html>
